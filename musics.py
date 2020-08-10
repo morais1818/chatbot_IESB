@@ -1,9 +1,6 @@
 import requests
 import re
-import configparser
-
-config = configparser.ConfigParser()
-config.read('config.ini')
+import os
 
 base_url = 'https://api.deezer.com'
 
